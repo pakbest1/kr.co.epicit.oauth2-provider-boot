@@ -1,0 +1,34 @@
+{
+	"accessToken": {
+		"access_token": "JLlzNxzJJFvkO3EPnkc8NA",
+		"expires_at": "2024-07-15T17:26:15.000",
+		"refresh_token": "hOpjmj24Lt0kOaOajv8S6B",
+		"refresh_token_expires_at": "2024-07-29T15:26:15.000",
+		"client_id": "YqvwfHu1SaddFefhbt8W3G",
+		"mall_id": "serveonemall",
+		"user_id": "serveonemall",
+		"scopes": [
+			"mall.read_customer",
+			"mall.write_customer"
+		],
+		"issued_at": "2024-07-15T15:26:15.000",
+		"shop_no": "1"
+	},
+	"config": {
+		"service_key": "gW9dLP04vv/8G4ngm3+KnnO914v5/CvYe2ur41OYriE=",
+		"code": "TqVhSfXAK6ZNLU6fCQ9PHF",
+		"api_version": "2024-06-01",
+		"version": "2024-06-01",
+		"client_id": "YqvwfHu1SaddFefhbt8W3G",
+		"token": "TqVhSfXAK6ZNLU6fCQ9PHF",
+		"access_token": "JLlzNxzJJFvkO3EPnkc8NA",
+		"refresh_token": "hOpjmj24Lt0kOaOajv8S6B",
+		"refresh_token_expires_at": "2024-07-29T15:26:15.000",
+		"mall_id": "serveonemall",
+		"scope": "mall.read_customer,mall.write_customer",
+		"client_secret": "lSnTFXKdIVKtOVcp0hdphD",
+		"redirect_uri": "https%3A%2F%2Finspire23.iptime.org%3A8443%2Ftransfer%2Fcafe24%2Fauthorize%2Fcallback",
+		"state": "",
+		"shop_no": "1"
+	}
+}
