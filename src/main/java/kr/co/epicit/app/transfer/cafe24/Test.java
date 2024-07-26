@@ -1,4 +1,4 @@
-package partners.inspire.transfer.cafe24;
+package kr.co.epicit.app.transfer.cafe24;
 
 import java.util.Arrays;
 import java.util.List;
@@ -23,7 +23,7 @@ public class Test {
 				""
 			);
 		scopes.removeAll(Arrays.asList(null, ""));
-		
+
 		String scope = scopes.toString().replaceAll("\\[|\\]| ", "");
 		System.out.println(scope);
 	}

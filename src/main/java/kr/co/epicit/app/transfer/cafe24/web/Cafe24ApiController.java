@@ -1,4 +1,4 @@
-package partners.inspire.transfer.cafe24.web;
+package kr.co.epicit.app.transfer.cafe24.web;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import kr.co.epicit.app.transfer.cafe24.worker.Cafe24AdminApiWorker;
 import kr.co.epicit.util.App;
-import partners.inspire.transfer.cafe24.worker.Cafe24AdminApiWorker;
 
 @Controller
 @RequestMapping("/transfer/cafe24")

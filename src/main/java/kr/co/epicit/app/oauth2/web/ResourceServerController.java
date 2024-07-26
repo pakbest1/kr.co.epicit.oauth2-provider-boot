@@ -22,8 +22,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 import kr.co.epicit._supports.security.SecurityUserDetails;
 import kr.co.epicit._supports.security.SecurityUserDetailsRepository;
+import kr.co.epicit.app.transfer.cafe24.worker.Cafe24AdminApiWorker;
 import kr.co.epicit.util.App;
-import partners.inspire.transfer.cafe24.worker.Cafe24AdminApiWorker;
 
 /*
  * http://uplus.co.kr/ssovmbrs/authorize.redirect.url

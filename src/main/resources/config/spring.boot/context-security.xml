@@ -21,8 +21,8 @@
 	</context:component-scan>
 	-->
 	<beans:bean id="bCryptPasswordEncoder"      class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"   />
-	<beans:bean id="authenticationProvider"     class="partners.inspire._supports.security.SecurityAuthenticationProvider" />
-	<beans:bean id="securityUserDetailsService" class="partners.inspire._supports.security.SecurityUserDetailsService"     />  <!-- // [2024.06.14] 내가 작성한 코드들이 정상작동 안함. -->
+	<beans:bean id="authenticationProvider"     class="kr.co.epicit._supports.security.SecurityAuthenticationProvider" />
+	<beans:bean id="securityUserDetailsService" class="kr.co.epicit._supports.security.SecurityUserDetailsService"     />  <!-- // [2024.06.14] 내가 작성한 코드들이 정상작동 안함. -->
 
 	<!-- ### Class로 설정 ### -->
 	<authentication-manager>
@@ -31,7 +31,7 @@
 		</authentication-provider>
 	</authentication-manager>
 
-	<!-- <beans:bean id="authenticationProviderManager" class="partners.inspire._supports.security.SecurityAuthenticationProviderManager">
+	<!-- <beans:bean id="authenticationProviderManager" class="kr.co.epicit._supports.security.SecurityAuthenticationProviderManager">
 		<beans:constructor-arg ref="authenticationProvider" /> </beans:bean> -->
 
 
@@ -40,8 +40,8 @@
 	<!-- <http pattern="/login" security="none" /> -->
 	<!-- <http pattern="/static/**" security="none" /> -->
 
-	<beans:bean id="loginSuccessHandler"  class="partners.inspire._supports.security.SecurityLoginSuccessHandler" />
-	<beans:bean id="logoutSuccessHandler" class="partners.inspire._supports.security.SecurityLogoutSuccessHandler" />
+	<beans:bean id="loginSuccessHandler"  class="kr.co.epicit._supports.security.SecurityLoginSuccessHandler" />
+	<beans:bean id="logoutSuccessHandler" class="kr.co.epicit._supports.security.SecurityLogoutSuccessHandler" />
 
 	<http auto-config="true">
 

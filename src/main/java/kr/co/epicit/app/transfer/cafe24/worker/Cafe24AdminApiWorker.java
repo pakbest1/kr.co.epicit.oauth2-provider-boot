@@ -1,4 +1,4 @@
-package partners.inspire.transfer.cafe24.worker;
+package kr.co.epicit.app.transfer.cafe24.worker;
 
 import java.util.Arrays;
 import java.util.Base64;

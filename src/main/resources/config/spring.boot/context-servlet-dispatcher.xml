@@ -16,7 +16,7 @@
 
 	<!-- Component 패키지 범위 설정 -->
 	<!-- <context:component-scan base-package="partners.inspire" /> -->
-	<context:component-scan base-package="partners.inspire" use-default-filters="false">  <!--  name-generator="partners.inspire._supports.spring.FullBeanNameGenerator" -->
+	<context:component-scan base-package="partners.inspire" use-default-filters="false">  <!--  name-generator="kr.co.epicit._supports.spring.FullBeanNameGenerator" -->
 		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
 		<context:include-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice" />
 		<context:include-filter type="annotation" expression="org.springframework.web.bind.annotation.RestController" />

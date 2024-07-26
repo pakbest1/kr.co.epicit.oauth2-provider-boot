@@ -14,9 +14,10 @@ import org.springframework.context.annotation.ImportResource;
 	, "classpath:/config/spring.boot/context-component-scan.xml"
 	, "classpath:/config/spring.boot/context-servlet-dispatcher.xml"
 	, "classpath:/config/spring.boot/context-security.xml"
+	, "classpath:/config/spring.boot/context-schduler.xml"
 })
 @ComponentScan(value={
-	"partners.inspire"
+	"kr.co.epicit"
 })
 public class ApplicationBootstrap {
 

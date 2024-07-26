@@ -1,4 +1,4 @@
-package partners.inspire.transfer.cafe24.repo;
+package kr.co.epicit.app.transfer.cafe24.repo;
 
 import java.io.File;
 import java.util.HashMap;
